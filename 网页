@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>视频演示</title>
+    <style>
+        body { margin: 0; background: #000; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        video { max-width: 100%; max-height: 100%; }
+    </style>
+</head>
+<body>
+    <video controls autoplay>
+        <source src="miaojia.mp4" type="video/mp4">
+        您的浏览器不支持视频标签。
+    </video>
+</body>
+</html>
